@@ -53,3 +53,15 @@ The analytics model focuses on four key dimensions, monitored through specific m
 | Newly Added Columns  | DeliveryCostRatio  | Measures logistics cost efficiency          | Helps optimize delivery costs |
 | Newly Added Columns  | Fulfillment        | Tracks order success status                 | Monitors operational performance |
 | Newly Added Columns  | Day                | Enables day-of-week analysis                | Supports time-based insights |
+
+
+
+## 🖥️ Dashboard Pages Overview
+
+| Page Name              | Focus Area            | Key Visual Insights                                                                 |
+|------------------------|----------------------|--------------------------------------------------------------------------------------|
+| Executive Overview     | Financial Performance | Tracks Net Sales, Fulfillment Rates, and Market Share by Organization.              |
+| Loss Analysis          | Revenue Leakage       | Identifies financial losses by Store, Week, Day, and Marketing Campaign.            |
+| Operational Time & Cost| Logistics Efficiency  | Analyzes Delivery Partner performance, Delivery Fees, and Order Density.            |
+| Strategic Insights     | Future Planning       | Features AI-driven Sales Forecasting and ROI analysis for UTM Campaigns.            |
+
