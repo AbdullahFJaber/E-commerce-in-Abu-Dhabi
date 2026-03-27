@@ -65,3 +65,19 @@ The analytics model focuses on four key dimensions, monitored through specific m
 | Operational Time & Cost| Logistics Efficiency  | Analyzes Delivery Partner performance, Delivery Fees, and Order Density.            |
 | Strategic Insights     | Future Planning       | Features AI-driven Sales Forecasting and ROI analysis for UTM Campaigns.            |
 
+
+
+## 🗂 Files in This Repository
+
+- Multi-Brand E-commerce Order Tracking & Delivery Performance - Original.xlsx
+- Multi-Brand E-commerce in Abu Dhabi .xlsx
+- Multi-Brand E-commerce in Abu Dhabi.pbix
+
+## 🔗 Interactive Dashboard
+
+
+You can explore the fully interactive dashboard online without needing Power BI Desktop. Click the link below to view the report:
+ ‏‏
+
+Note: The dashboard works best on desktop browsers. Mobile browsers may have limited functionality.
+
