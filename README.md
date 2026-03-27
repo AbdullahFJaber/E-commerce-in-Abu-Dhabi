@@ -42,7 +42,7 @@ The analytics model focuses on four key dimensions, monitored through specific m
 
 ## 🛠️ Data Transformation Log
 
-| Category              | Column Name        | Description                                  | Reason                     |
+| Column Status          | Column Name        | Description                                  | Reason                     |
 |----------------------|--------------------|----------------------------------------------|----------------------------|
 | Removed Columns      | StoreID            | Store identifier                            | Redundant; Store name is sufficient |
 | Removed Columns      | city               | City of the store                           | Outside project's Abu Dhabi scope |
