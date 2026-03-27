@@ -41,17 +41,15 @@ The analytics model focuses on four key dimensions, monitored through specific m
 - Market Dynamics: Segmented by Order Size (Large, Medium, Small), Store Location, and UTM Campaign impact.
 
 ## 🛠️ Data Transformation Log
-1. Removed Columns
-Column Name,Reason for Removal
-StoreID,Redundant; Store name is sufficient.
-city,Outside project's Abu Dhabi scope.
-date only,Standardized into OrderDate format.
 
-2. Newly Added Columns
-Column Name,Reason for Addition
-OrderSegment,Categorizes transactions by size.
-NetSales,Calculates actual realized revenue.
-LostRevenue,Quantifies financial leakage value.
-DeliveryCostRatio,Measures logistics cost efficiency.
-Fulfillment,Tracks order success status.
-Day,Enables day-of-week analysis.
+| Category              | Column Name        | Description                                  | Reason                     |
+|----------------------|--------------------|----------------------------------------------|----------------------------|
+| Removed Columns      | StoreID            | Store identifier                            | Redundant; Store name is sufficient |
+| Removed Columns      | city               | City of the store                           | Outside project's Abu Dhabi scope |
+| Removed Columns      | date only          | Raw date field                              | Standardized into OrderDate format |
+| Newly Added Columns  | OrderSegment       | Categorizes transactions by size            | Improves segmentation analysis |
+| Newly Added Columns  | NetSales           | Calculates actual realized revenue          | More accurate revenue tracking |
+| Newly Added Columns  | LostRevenue        | Quantifies financial leakage value          | Identifies missed revenue opportunities |
+| Newly Added Columns  | DeliveryCostRatio  | Measures logistics cost efficiency          | Helps optimize delivery costs |
+| Newly Added Columns  | Fulfillment        | Tracks order success status                 | Monitors operational performance |
+| Newly Added Columns  | Day                | Enables day-of-week analysis                | Supports time-based insights |
