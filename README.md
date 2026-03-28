@@ -75,6 +75,7 @@ The analytics model focuses on four key dimensions, monitored through specific m
 
 ## 🔗 Interactive Dashboard
 
+https://bit.ly/4dlu5qh
 
 You can explore the fully interactive dashboard online without needing Power BI Desktop. Click the link below to view the report:
  ‏‏
