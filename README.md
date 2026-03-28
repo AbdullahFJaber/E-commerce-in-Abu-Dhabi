@@ -124,3 +124,6 @@ https://app.powerbi.com/view?r=eyJrIjoiNGVhMGMyNGItZjBhOC00MzY0LTljYTMtODIwNWNiM
 
 
 Note: The dashboard works best on desktop browsers. Mobile browsers may have limited functionality
+
+
+### This dashboard was created using a public dataset for demonstration purposes and does not contain any sensitive or private customer information.
