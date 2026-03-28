@@ -119,7 +119,7 @@ Measures Skewness and Kurtosis to understand the distribution of delivery costs 
 
 You can explore the fully interactive dashboard online without needing Power BI Desktop. Click the link below to view the report:
 
- https://bit.ly/4dlu5qh‏‏
-
+https://app.powerbi.com/view?r=eyJrIjoiNGVhMGMyNGItZjBhOC00MzY0LTljYTMtODIwNWNiMTI1Mjg4IiwidCI6IjJiYjZlNWJjLWMxMDktNDdmYi05NDMzLWMxYzZmNGZhMzNmZiIsImMiOjl9
+‏‏
 Note: The dashboard works best on desktop browsers. Mobile browsers may have limited functionality.
 
