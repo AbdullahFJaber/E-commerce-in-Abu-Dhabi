@@ -47,7 +47,7 @@ The analytics model focuses on four key dimensions, monitored through specific m
 | Removed Columns      | StoreID            | Store identifier                            | Redundant; Store name is sufficient |
 | Removed Columns      | city               | City of the store                           | only Abu Dhabi City,No other cities |
 | Removed Columns      | date only          | Raw date field                              | It has no relevance to the order date |
-|----------------------|--------------------|----------------------------------------------|----------------------------|
+
 | Newly Added Columns  | OrderSegment       | Categorizes transactions by size            | Improves segmentation analysis |
 | Newly Added Columns  | NetSales           | Calculates actual realized revenue          | More accurate revenue tracking |
 | Newly Added Columns  | LostRevenue        | Quantifies financial leakage value          | Identifies missed revenue opportunities |
@@ -65,7 +65,8 @@ The analytics model focuses on four key dimensions, monitored through specific m
 - Provides a macro-view of business health across different segments.
 
 <img width="985" height="552" alt="image" src="https://github.com/user-attachments/assets/137400c5-2f79-4ec9-bc87-cd154e47e7df" />
-|----------------------|--------------------|----------------------------------------------|----------------------------|
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 ### 🔍 Loss Analysis
 - Focus: Revenue Leakage & Cancellations.
@@ -73,7 +74,7 @@ The analytics model focuses on four key dimensions, monitored through specific m
 - Identifies specific pain points to minimize revenue drain.
 
 <img width="983" height="556" alt="image" src="https://github.com/user-attachments/assets/d9f22564-36d7-46f2-8393-4c7e8e750d1c" />
-|----------------------|--------------------|----------------------------------------------|----------------------------|
+--------------------------------------------------------------------------------------------------------------------------------
 
 ### 🚚 Operational Time & Cost
 - Focus: Logistics Efficiency & Delivery Performance.
@@ -81,7 +82,7 @@ The analytics model focuses on four key dimensions, monitored through specific m
 - Measures cost-effectiveness to optimize logistics spending and supply chain speed.
 
 <img width="983" height="554" alt="image" src="https://github.com/user-attachments/assets/8ecccd41-7319-43ac-975d-f3de5b960953" />
-|----------------------|--------------------|----------------------------------------------|----------------------------|
+--------------------------------------------------------------------------------------------------------------------------------
 
 ### 🔭 Strategic Insights
 - Focus: Future Planning & Campaign ROI.
@@ -89,7 +90,7 @@ The analytics model focuses on four key dimensions, monitored through specific m
 - Measures the ROI of UTM Campaigns to guide future marketing investments.
 
 <img width="984" height="554" alt="image" src="https://github.com/user-attachments/assets/ccfec1f9-79d5-4e0e-aa6c-df5a4d493e2b" />
-|----------------------|--------------------|----------------------------------------------|----------------------------|
+--------------------------------------------------------------------------------------------------------------------------------
 
 
 ## 🗂 Files in This Repository
