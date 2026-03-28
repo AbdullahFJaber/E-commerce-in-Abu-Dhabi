@@ -45,8 +45,9 @@ The analytics model focuses on four key dimensions, monitored through specific m
 | Column Status          | Column Name        | Description                                  | Reason                     |
 |----------------------|--------------------|----------------------------------------------|----------------------------|
 | Removed Columns      | StoreID            | Store identifier                            | Redundant; Store name is sufficient |
-| Removed Columns      | city               | City of the store                           | Outside project's Abu Dhabi scope |
-| Removed Columns      | date only          | Raw date field                              | Standardized into OrderDate format |
+| Removed Columns      | city               | City of the store                           | only Abu Dhabi City,No other cities |
+| Removed Columns      | date only          | Raw date field                              | It has no relevance to the order date |
+|----------------------|--------------------|----------------------------------------------|----------------------------|
 | Newly Added Columns  | OrderSegment       | Categorizes transactions by size            | Improves segmentation analysis |
 | Newly Added Columns  | NetSales           | Calculates actual realized revenue          | More accurate revenue tracking |
 | Newly Added Columns  | LostRevenue        | Quantifies financial leakage value          | Identifies missed revenue opportunities |
@@ -58,13 +59,37 @@ The analytics model focuses on four key dimensions, monitored through specific m
 
 ## 🖥️ Dashboard Pages Overview
 
-| Page Name              | Focus Area            | Key Visual Insights                                                                 |
-|------------------------|----------------------|--------------------------------------------------------------------------------------|
-| Executive Overview     | Financial Performance | Tracks Net Sales, Fulfillment Rates, and Market Share by Organization.              |
-| Loss Analysis          | Revenue Leakage       | Identifies financial losses by Store, Week, Day, and Marketing Campaign.            |
-| Operational Time & Cost| Logistics Efficiency  | Analyzes Delivery Partner performance, Delivery Fees, and Order Density.            |
-| Strategic Insights     | Future Planning       | Features AI-driven Sales Forecasting and ROI analysis for UTM Campaigns.            |
+### 📈 Executive Overview
+- Focus: Financial Performance & Market Share.
+- Tracks Net Sales, Fulfillment Rates, and organizational Market Share through high-level KPIs.
+- Provides a macro-view of business health across different segments.
 
+<img width="985" height="552" alt="image" src="https://github.com/user-attachments/assets/137400c5-2f79-4ec9-bc87-cd154e47e7df" />
+|----------------------|--------------------|----------------------------------------------|----------------------------|
+
+### 🔍 Loss Analysis
+- Focus: Revenue Leakage & Cancellations.
+- Pinpoints financial losses and order cancellations segmented by Store, Week, and Marketing Campaign.
+- Identifies specific pain points to minimize revenue drain.
+
+<img width="983" height="556" alt="image" src="https://github.com/user-attachments/assets/d9f22564-36d7-46f2-8393-4c7e8e750d1c" />
+|----------------------|--------------------|----------------------------------------------|----------------------------|
+
+### 🚚 Operational Time & Cost
+- Focus: Logistics Efficiency & Delivery Performance.
+- Evaluates Delivery Partner performance, Delivery Fees, and Order Density.
+- Measures cost-effectiveness to optimize logistics spending and supply chain speed.
+
+<img width="983" height="554" alt="image" src="https://github.com/user-attachments/assets/8ecccd41-7319-43ac-975d-f3de5b960953" />
+|----------------------|--------------------|----------------------------------------------|----------------------------|
+
+### 🔭 Strategic Insights
+- Focus: Future Planning & Campaign ROI.
+- Leverages AI-driven Sales Forecasting and trend analysis for long-term decision-making.
+- Measures the ROI of UTM Campaigns to guide future marketing investments.
+
+<img width="984" height="554" alt="image" src="https://github.com/user-attachments/assets/ccfec1f9-79d5-4e0e-aa6c-df5a4d493e2b" />
+|----------------------|--------------------|----------------------------------------------|----------------------------|
 
 
 ## 🗂 Files in This Repository
